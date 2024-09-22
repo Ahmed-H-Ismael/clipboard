@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css style */
+
+header{
+    @apply h-screen bg-mobileBackground lg:bg-headerBackground bg-cover bg-no-repeat relative
+}
+header .content{
+    @apply  text-center absolute left-1/2 top-1/2 translate-x-transform50 translate-y-transform50
+}
+ .btn{
+    @apply  text-white rounded-full py-2 px-5 shadow-lg
+}
+.title{
+    @apply font-semibold mb-3 text-grayishBlue-100
+}
