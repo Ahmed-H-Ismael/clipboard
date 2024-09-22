@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.4.12"
+    "tailwindcss": "^3.4.12",
+    "homepage":"https://ahmed-h-ismael.github.io/clipboard/dist/index.html"
   },
   "scripts": {
     "build-css":"tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
