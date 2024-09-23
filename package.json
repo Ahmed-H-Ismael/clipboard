@@ -4,7 +4,7 @@
     "homepage":"https://ahmed-h-ismael.github.io/clipboard/dist/index.html"
   },
   "scripts": {
-    "build-css":"npx tailwindcss-cli@latest build -i ./src/styles.css -o ./dist/output.css --watch""
+    "build-css":"npx tailwindcss-cli@latest build -i ./src/styles.css -o ./dist/output.css --watch"
     
   }
 }
